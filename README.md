@@ -15,3 +15,10 @@ Different machine learning models will be trained and optimized to improve the p
 + Removal of variables "ID", "N_Days", "Drug" and "Stage" from the data used for training of the machine learning algorithms
 + Removal of rows with missing values (instead of imputation) prior to algorithm training
 + Conversion of the variable "Age" into years
+
+<a href=https://github.com/ostepanovic/bioeb24bac/blob/4c742c9ac1bc00e6a137da374ce6768c7e8d2ddd/v3.0_Bac-Thesis.R>v3.0_Bac-Thesis.R</a> contains the following changes:
++ Addition of initialization of random seed at the start for consistent results
++ Removal of rows with patient status "CL" (= censored because of liver transplantation)
++ Undoing the removal of the "Stage" variable (compared to v2.0)
++ Improvement of hyperparameter optimization
++ Addition of visualization of feature importance for each of the machine learning algorithms used
