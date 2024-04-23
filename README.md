@@ -22,3 +22,7 @@ Different machine learning models will be trained and optimized to improve the p
 + Undoing the removal of the "Stage" variable (compared to v2.0)
 + Improvement of hyperparameter optimization
 + Addition of visualization of feature importance for each of the machine learning algorithms used
+
+<a href=https://github.com/ostepanovic/bioeb24bac/blob/5596b4a8e9d317a8004590cdb1a6f92c9d9f2cf3/v3.1_Bac-Thesis.R>v3.1_Bac-Thesis.R</a> has been changed compared to v3.0 so that the variable "Drug" is predicted instead of the variable "Status".
+
+<a href=https://github.com/ostepanovic/bioeb24bac/blob/5596b4a8e9d317a8004590cdb1a6f92c9d9f2cf3/v3.2_Bac-Thesis.R>v3.2_Bac-Thesis.R</a> has been changed compared to v3.0 so that the variable "Stage" is predicted instead of the variable "Status".
